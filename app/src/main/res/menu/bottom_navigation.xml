@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_timer"
+        android:enabled="true"
+        android:icon="@drawable/ic_timer_24dp"
+        android:title="Timer"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_rank"
+        android:enabled="true"
+        android:icon="@drawable/ic_rank_24dp"
+        android:title="Rank"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/action_calendar"
+        android:enabled="true"
+        android:icon="@drawable/ic_date_24dp"
+        android:title="History"
+        app:showAsAction="ifRoom" />
+</menu>

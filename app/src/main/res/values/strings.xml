@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Yoga</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="logIn">Log In</string>
+    <string name="signUp">Sign Up?</string>
+    <string name="signOut">Log Out</string>
+    <string name="start">START</string>
+    <string name="stop">STOP</string>
+    <string name="instruction">Hit START to begin your practice</string>
+</resources>

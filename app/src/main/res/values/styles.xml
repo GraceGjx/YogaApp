@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/common_google_signin_btn_text_light_disabled</item>
+    </style>
+
+    <style name="mAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Used for the buttons -->
+        <item name="colorAccent">#000000</item>
+        <!-- Used for the title and text -->
+        <item name="android:windowTitleStyle">@style/TimeAlertTitleTextStyle</item>
+        <item name="android:textColorPrimary">#FFC107</item>
+        <item name="android:textAlignment">center</item>
+        <!-- Used for the background -->
+        <item name="android:background">#FFFFFF</item>
+    </style>
+
+    <style name="TimeAlertTitleTextStyle">
+        <item name="android:textColor">#A9A9A9</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+
+</resources>
